@@ -11,7 +11,7 @@ public class JsonResource {
     @GET
     @Produces("application/json")
     public Response response(){
-        return Response.ok("{'status':'ok'}", MediaType.APPLICATION_JSON_TYPE).build();
+        return Response.ok("{\"status\":\"ok\"}", MediaType.APPLICATION_JSON_TYPE).build();
     }
 
 }
